@@ -37,6 +37,8 @@ jobs:
       with:
         version: "snapshot"
     - uses: actions/checkout@v3
+      with:
+        persist-credentials: false
     - name: Install
       id: install
       run: |
